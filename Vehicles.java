@@ -5,7 +5,7 @@ public abstract class Vehicles {
 	private int kilometers;
 	
 	//constructor
-	public Vehicles(String brand) {
+	public Vehicles(String brand, int kilometers) {
 		this.brand = brand;
 		this.kilometers= 0;
 	}
@@ -29,7 +29,7 @@ public abstract class Vehicles {
 	}
 	
 	//méthodes
-	public abstract String toStuff(); 
+	public abstract String doStuff(); 
 		
 	
 	

@@ -3,15 +3,16 @@ public class Hangar {
 
 	public static void main(String[] args) {
 		
-		Car clio = new Car("Clio");
+		Car clio = new Car("Clio", 100);
+	 
 		
-		System.out.println("Je suis {brand} et je fais vroum vroum !");
+		System.out.println(clio.doStuff());
 		
 		
 		
-		Boat titanic = new Boat("Titanic");
+		Boat titanic = new Boat("Titanic", 900);
 		
-		System.out.println("Je suis {brand} et je fais glou glou !");
+		System.out.println(titanic.doStuff());
 		
 		
 		

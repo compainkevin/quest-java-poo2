@@ -1,24 +1,16 @@
 
 public class Car extends Vehicles {
 	
-	private boolean rolling;
-	
-	public Car(String brand) {
-		super (brand);
-		this.rolling = false;
+	public Car(String brand, int kilometers) {
+		super (brand, kilometers);
+		
 	}
 	
 	@Override
-	public String toStuff() {
-		return "Tututut";
+	public String doStuff() {
+		return "Je suis " + this.getBrand() + " et je fais vroum-vroum !";
 	}
 	
-	public boolean isRolling() {
-		return rolling;
-	}
 	
-	public void setRolling(boolean rolling) {
-		this.rolling = rolling;
-	}
 
 }
